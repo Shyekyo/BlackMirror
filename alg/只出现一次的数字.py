@@ -12,21 +12,12 @@ date:2019
 #输出: 4
 
 def singleNumber(nums):
-    count = 0
-    for index_i in range(0,len(nums)):
-        for index_j in range(0,len(nums)):
-            count += 1
-            if index_i==index_j:
-                count = 0
-                continue
-            if nums[index_i]==nums[index_j]:
-                count = 0
-                break
-            if(count==(len(nums)-1)):
-                return index_i
+    for indexi in range(0,len(nums)):
+        pass
+
 
 if __name__ =="__main__":
-    #nums = [4,1,2,1,2]
-    nums =  [2,2,1]
+    nums = [4,1,2,1,2]
+    #nums =  [2,2,1]
     index = singleNumber(nums)
-    print(nums[index])
+    print(5^4)
